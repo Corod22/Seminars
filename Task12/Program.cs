@@ -4,3 +4,16 @@
 
 // 34, 5-> не кратно, остаток 4
 // 16, 4-> кратно
+Console.WriteLine("Введите 1 число");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
+int multiplicityNumber=firstNumber%secondNumber;
+if (multiplicityNumber==0)
+{
+    Console.WriteLine("Кратно");
+}
+else
+{
+    Console.WriteLine($"Не кратно, остаток-> {multiplicityNumber}");
+}
