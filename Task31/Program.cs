@@ -26,7 +26,7 @@ void PrintArray (int[] arr)
     }
     Console.WriteLine("]");
 }
-nt GetSumNegativeElem (int[] arr)
+int GetSumNegativeElem (int[] arr)
 {
     int sum = 0;
     for (int i = 0; i < arr.Length; i++)
